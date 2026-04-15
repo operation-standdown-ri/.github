@@ -1,0 +1,10 @@
+# OSDRI CODEOWNERS — default review routing
+# Syntax: https://docs.github.com/en/repositories/managing-your-repositories-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default: admins team
+*       @operation-standdown-ri/admins
+
+# Security-critical paths (explicit)
+SECURITY.md                     @operation-standdown-ri/admins
+.github/                        @operation-standdown-ri/admins
+CODEOWNERS                      @operation-standdown-ri/admins
